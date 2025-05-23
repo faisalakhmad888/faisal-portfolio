@@ -1,0 +1,64 @@
+/* styles/globals.css */
+
+/* styles/globals.css */
+:root {
+  --primary-color: #ff5733; /* Vibrant orange */
+  --secondary-color: #f5f5f5;
+  --accent-color: #33c1ff;  /* Bright cyan */
+  --hover-color: #ffca28;   /* Bright yellow */
+  --font-family: 'Poppins', sans-serif;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: var(--font-family);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  line-height: 1.6;
+  transition: all 0.3s ease-in-out; /* Smooth transition for overall changes */
+}
+
+.h1, .h2, .h3 {
+  transition: transform 0.3s ease-out;
+}
+
+/* Hover effect for all text */
+.h1:hover, .h2:hover, .h3:hover {
+  transform: scale(1.1); /* Slightly enlarge text on hover */
+  color: var(--accent-color); /* Accent color on hover */
+}
+
+/* Links */
+.a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+/* Button hover effect */
+.button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--hover-color);
+  transform: translateY(-5px); /* Lift button on hover */
+}
