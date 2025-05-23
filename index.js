@@ -28,7 +28,7 @@ export default function Home() {
           <p>Feb 2023 – Present</p>
           <ul>
             <li>Conduct user research and create wireframes, prototypes, and high-fidelity UI.</li>
-            <li>Lead design of the "Ide App" for SME digital engagement.</li>
+            <li>Lead design of the &#39;Ide App&#39; for SME digital engagement.</li>
             <li>Perform usability testing and iterate based on feedback.</li>
           </ul>
         </div>
